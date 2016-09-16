@@ -1,12 +1,16 @@
 {
   "name": "lukasjokubas.lt",
   "version": "1.0.1",
+  "engines": {
+    "node": "6.0.0"
+  },
   "scripts": {
     "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
     "lite": "lite-server",
+    "postinstall": "typings install",
     "tsc": "tsc",
     "tsc:w": "tsc -w",
-    "typings": "typings install"
+    "typings": "typings"
   },
   "license": "ISC",
   "dependencies": {
