@@ -115,3 +115,11 @@ my-app {
   opacity: 1;
 }
 /* ShareThis Buttons End */
+
+.g-signin2 {
+  display: inline-block;
+}
+
+main {
+  margin-bottom: 20px;
+}

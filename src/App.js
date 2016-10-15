@@ -15,6 +15,7 @@ class App extends Component {
         </div>
         <main role="main">
           <h1>Shh... <span className="title">LukasJokubas.lt</span> grows in silence.</h1>
+          //<div className="g-signin2" data-onsuccess="onSignIn"></div>
         </main>
         <div className="share-buttons">
           <span className="st_sharethis_large" data-displayText="ShareThis"></span>
