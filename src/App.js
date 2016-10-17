@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 //import logo from './logo.svg';
+import SocialNetworks from './SocialNetworks';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+        <SocialNetworks />
         <div className="loader-container circle-pulse-multiple">
           <div className="loader">
             <div className="circle-1"></div>
@@ -15,7 +17,6 @@ class App extends Component {
         </div>
         <main role="main">
           <h1>Shh... <span className="title">LukasJokubas.lt</span> grows in silence.</h1>
-          //<div className="g-signin2" data-onsuccess="onSignIn"></div>
         </main>
         <div className="share-buttons">
           <span className="st_sharethis_large" data-displayText="ShareThis"></span>
